@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #495057;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h1{
+            color: #d3d9df;
+        }
+        h2{
+            color:#000000ed
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-card:hover {
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+        <h1>Jaishri K S</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I enjoy learning and sharing my knowledge. I'm currently pursuing my Bachelor's degree on Electronics and communication engineering at Sri Krishna College of Technology,Coimbatore. My goal is to inspire and create impact through my work.
+                I conducted a enlightening session on career guidance for middle school students and also participated in Tree planting camp to plant the samplings in the desired area. 
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>My First Project is "Gas and smoke detector sensor"
+                        The description of my project is to develop a system that senses harmful gases (like LPG or CO) and smoke using sensors, triggering alarms to ensure safety. It typically involves a microcontroller, sensors, and alert mechanisms like buzzers or LEDs. The system can also integrate IoT for remote monitoring.
+                    </p>
+                    <a href="#" class="button">View Project</a>
+                </div>
+                
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>I'd love to connect! Reach out to me via email or through my social media channels below.</p>
+            <ul>
+                <li>Email: <a href="ksjaishri010804@gmail.com">ksjaishri010804@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/jaishri-kamalakannan-b03b46290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Jaishri Kamalakannan-LinkedIn</a></li>
+                
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jaishri K S. All rights reserved.</p>
+    </footer>
+</body>
+</html>
